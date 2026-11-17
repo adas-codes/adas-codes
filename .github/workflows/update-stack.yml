@@ -1,0 +1,98 @@
+name: Update Primary Stack
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch language stats and update README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import re
+          import urllib.request
+
+          user = os.environ["USERNAME"]
+          token = os.environ["GH_TOKEN"]
+
+          headers = {
+              "Authorization": f"Bearer {token}",
+              "Accept": "application/vnd.github+json",
+              "X-GitHub-Api-Version": "2022-11-28",
+          }
+
+          req = urllib.request.Request(
+              f"https://api.github.com/users/{user}/repos?per_page=100&type=owner",
+              headers=headers,
+          )
+
+          with urllib.request.urlopen(req) as response:
+              repos = json.loads(response.read().decode("utf-8"))
+
+          totals = {}
+          for repo in repos:
+              if repo.get("fork") or repo.get("private"):
+                  continue
+
+              lang_url = repo.get("languages_url")
+              if not lang_url:
+                  continue
+
+              lang_req = urllib.request.Request(lang_url, headers=headers)
+              with urllib.request.urlopen(lang_req) as response:
+                  langs = json.loads(response.read().decode("utf-8"))
+
+              for lang, bytes_count in langs.items():
+                  totals[lang] = totals.get(lang, 0) + bytes_count
+
+          total_bytes = sum(totals.values()) or 1
+          top_langs = sorted(totals.items(), key=lambda item: item[1], reverse=True)[:5]
+
+          formatted = " · ".join(
+              f"**{lang}** ({(bytes_count / total_bytes) * 100:.1f}%)"
+              for lang, bytes_count in top_langs
+          )
+
+          readme_path = "README.md"
+          with open(readme_path, "r", encoding="utf-8") as f:
+              content = f.read()
+
+          new_block = f"<!-- LANG-STATS:START -->\n{formatted}\n<!-- LANG-STATS:END -->"
+
+          updated = re.sub(
+              r"<!-- LANG-STATS:START -->.*?<!-- LANG-STATS:END -->",
+              new_block,
+              content,
+              flags=re.DOTALL,
+          )
+
+          if updated == content:
+              if "<!-- LANG-STATS:START -->" not in content:
+                  updated = content.rstrip() + "\n\n" + new_block + "\n"
+              else:
+                  raise RuntimeError("Language stats block could not be updated.")
+
+          with open(readme_path, "w", encoding="utf-8") as f:
+              f.write(updated)
+          PY
+
+      - name: Commit changes
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update primary stack"
+          git push
