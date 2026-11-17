@@ -16,5 +16,5 @@ Here are some ideas to get you started:
 -->
 
 <!-- LANG-STATS:START -->
-Updating...
+**Java** (39.6%) · **Jupyter Notebook** (27.9%) · **CSS** (21.4%) · **HTML** (5.8%) · **JavaScript** (5.0%)
 <!-- LANG-STATS:END -->
