@@ -15,20 +15,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-## Contribution Matrix
+## Contribution Activity
 
 <a href="https://github.com/adas-codes">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=adas-codes&amp;show_icons=true&amp;theme=transparent&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github">
-    <img alt="GitHub contribution stats" src="https://github-readme-stats.vercel.app/api?username=adas-codes&amp;show_icons=true&amp;theme=default&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github">
-  </picture>
-</a>
-
-<a href="https://github.com/adas-codes">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=adas-codes&amp;theme=transparent&amp;hide_border=true">
-    <img alt="GitHub contribution streak" src="https://github-readme-streak-stats.herokuapp.com/?user=adas-codes&amp;theme=default&amp;hide_border=true">
-  </picture>
+  <img alt="adas-codes's GitHub contribution calendar" src="https://ghchart.rshah.org/39d353/adas-codes">
 </a>
 
 <!-- LANG-STATS:START -->
