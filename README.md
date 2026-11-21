@@ -1,9 +1,14 @@
 ## Hi there 👋
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=39D353&center=true&vCenter=true&width=600&lines=Exploring+the+magical+world+of+technology" alt="Typing animation">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=6000&color=#1A671F&center=true&vCenter=true&width=400&lines=Exploring+the+magical+world+of+AI" alt="Typing animation">
   </a>
 </p>
+## Contribution Activity
+
+<a href="https://github.com/adas-codes">
+  <img alt="adas-codes's GitHub contribution calendar" src="https://ghchart.rshah.org/39d353/adas-codes">
+</a>
 <!--
 **adas-codes/adas-codes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -18,12 +23,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-## Contribution Activity
-
-<a href="https://github.com/adas-codes">
-  <img alt="adas-codes's GitHub contribution calendar" src="https://ghchart.rshah.org/39d353/adas-codes">
-</a>
 
 <!-- LANG-STATS:START -->
 **Java** (39.6%) · **Jupyter Notebook** (27.9%) · **CSS** (21.4%) · **HTML** (5.8%) · **JavaScript** (5.0%)
