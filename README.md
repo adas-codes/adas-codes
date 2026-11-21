@@ -1,7 +1,7 @@
 ## Hi there 👋
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=6000&color=#1A671F&center=true&vCenter=true&width=400&lines=Exploring+the+magical+world+of+AI"alt="Typing animation">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=6000&color=1A671F&center=true&vCenter=true&width=400&lines=Exploring+the+magical+world+of+AI"alt="Typing animation">
   </a>
 </p>
 ## Contribution Activity
