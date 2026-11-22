@@ -1,5 +1,14 @@
 ## Hi there 👋
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=MonoLisa&weight=800&size=18&letterSpacing=5&duration=10000&pause=1023&color=1F6614&width=600&height=100&lines=Exploring+the+magical+world+of+technology.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=MonoLisa&weight=800&size=18&letterSpacing=5&duration=8000&pause=3000&color=1F6614&center=true&vCenter=true&width=600&height=100&lines=Exploring+the+magical+world+of+technology.)](https://git.io/typing-svg)
+
+## 🚀 About Me
+
+- 🤖 Exploring Artificial Intelligence, LLMs, and AI-powered applications.
+- ☕ Working with Java and backend development.
+- 🧪 Interested in software testing, automation, and quality engineering.
+- 🛠️ Building projects that combine software engineering and AI.
+- 🌱 Constantly learning, experimenting, and turning ideas into working projects.
+
 ## Contribution Activity
 
 <p align="center">
