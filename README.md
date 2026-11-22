@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=MonoLisa&weight=800&size=18&letterSpacing=5&duration=8000&pause=1023&color=8F0D0D&center=true&vCenter=true&width=600&height=100&lines=Greetings+visitor;I+love+to+explore+the+magical+world+of+technology.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&weight=500&size=15&letterSpacing=&color=007136&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Curious+by+Nature.+;Engineer+by+Experiment.)](https://git.io/typing-svg)
 
 ## 🚀 About Me
 
@@ -40,6 +40,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
 
 <!-- LANG-STATS:START -->
 **Java** (39.6%) · **Jupyter Notebook** (27.9%) · **CSS** (21.4%) · **HTML** (5.8%) · **JavaScript** (5.0%)
