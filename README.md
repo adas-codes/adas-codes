@@ -1,5 +1,4 @@
-## Hi there 👋
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=MonoLisa&weight=800&size=18&letterSpacing=5&duration=8000&pause=3000&color=1F6614&center=true&vCenter=true&width=600&height=100&lines=Exploring+the+magical+world+of+technology.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=MonoLisa&weight=800&size=18&letterSpacing=5&duration=8000&pause=1023&color=8F0D0D&center=true&vCenter=true&width=600&height=100&lines=Greetings+visitor;I+love+to+explore+the+magical+world+of+technology.)](https://git.io/typing-svg)
 
 ## 🚀 About Me
 
