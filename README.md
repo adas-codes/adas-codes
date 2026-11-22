@@ -1,9 +1,5 @@
 ## Hi there 👋
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=6000&color=1A671F&center=true&vCenter=true&width=400&lines=Exploring+the+magical+world+of+AI"alt="Typing animation">
-  </a>
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=MonoLisa&weight=800&size=18&letterSpacing=5&duration=10000&pause=1023&color=1F6614&width=600&height=100&lines=Exploring+the+magical+world+of+technology.)](https://git.io/typing-svg)
 ## Contribution Activity
 
 <p align="center">
