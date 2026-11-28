@@ -1,5 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&weight=500&size=20&letterSpacing=&color=007136&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Curious+by+Nature.+;Engineer+by+Experiment.)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=omnitron&size=15&pause=1000&color=700000&center=true&vCenter=true&width=435&lines=curious+by+nature%2C+engineer+by+experiment.)](https://git.io/typing-svg)
 ## 🚀 About Me
 
 - 🤖 Exploring Artificial Intelligence, LLMs, and AI-powered applications.
